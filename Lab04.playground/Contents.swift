@@ -41,8 +41,10 @@ persona.compliAnhos(cantidad: 2)
 
 */
 
+
 // CASO 2
 
+/*
 enum TipoTraccion {
     case Delantera
     case Trasera
@@ -138,7 +140,7 @@ let suvDeluxe = SUVDeluxeHibrido(marca: "Lexus", modelo: "RX Hybrid", fabricante
 
 print(suvDeluxe.obtenerInformacion())
 
-
+*/
 
 
 
