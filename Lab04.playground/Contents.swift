@@ -145,5 +145,61 @@ print(suvDeluxe.obtenerInformacion())
 */
 
 
+    // TODO : NASA
+
+enum Paises {
+    case Rusia
+    case USA
+    case China
+    
+}
+
+class Tripulante {
+    
+}
+
+class NaveEspacial {
+
+    var nombre: String
+    var pais : Paises
+
+    init(nombre: String, pais: Paises) {
+        self.nombre = nombre
+        self.pais = pais
+    }
+    
+}
+
+protocol ServiciosVitales {
+    
+    func estadoServiciosHigienicos() -> Bool
+    
+    func estadoCocina() -> Bool
+    
+}
+
+class NaveEspacialMarte:NaveEspacial , ServiciosVitales {
+    
+ 
+    var tripulantes : [Tripulante]
+
+    init(nombre: String, pais: Paises , tripulantes: [Tripulante]) {
+        self.tripulantes = tripulantes
+        super.init(nombre: nombre , pais:pais)
+
+    }
+    
+    func estadoServiciosHigienicos()  -> Bool{
+        return true
+    }
+    
+    func estadoCocina()  -> Bool {
+        return true
+    }
+
+    
+}
+
+
 
 
