@@ -1,3 +1,5 @@
+import Cocoa
+
 /*
  Week : 4
  Subject : POO
@@ -299,3 +301,4 @@ let avion = Avion()
 
 pajaro.volar()
 avion.volar()
+

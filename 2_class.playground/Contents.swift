@@ -1,3 +1,5 @@
+import Cocoa
+
 /*
  Week : 4
  Subject : POO
@@ -279,3 +281,4 @@ print(rectangle.height)
 // Prints "12"
 
 // */
+
